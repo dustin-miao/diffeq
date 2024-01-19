@@ -9,7 +9,7 @@ const config: QuartzConfig = {
     analytics: {
       provider: null,
     },
-    baseUrl: "github.com/dustin-miao/diffeq-notes"
+    baseUrl: "github.com/dustin-miao/diffeq-notes",
     ignorePatterns: ["private", "templates", ".obsidian"],
     defaultDateType: "created",
     theme: {

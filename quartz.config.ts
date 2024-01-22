@@ -3,7 +3,7 @@ import * as Plugin from "./quartz/plugins"
 
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "ATM: Diff Eq 2",
+    pageTitle: "Differential Equations II Notes",
     enableSPA: true,
     enablePopovers: true,
     analytics: {

@@ -4,6 +4,16 @@ title: Home
 
 This page is a set of notes for Harker's Differential Equations II course (period 5), taught by Dr. Aiyer. 
 
+### 📝Note Icons
+
+| Icon | Type                   |  
+|-----:|------------------------|  
+|   📕 | Axiom                  |  
+|   📘 | Definition             |  
+|   📗 | Proposition or Theorem |  
+|   📙 | Methodology            |  
+|   🗺️ | Miscellaneous          |
+
 ### ❓Info
 
 The source of this site is located on [GitHub](https://github.com/dustin-miao/diffeq/tree/main) and hosted using GitHub pages. On the backend, the site uses [Quartz 4.0](https://quartz.jzhao.xyz/) to render the site. To view locally, download [diffeq-notes/content](https://github.com/dustin-miao/diffeq/tree/main/content) and open with [obsidian.md](https://obsidian.md/) or your favorite markdown editor.

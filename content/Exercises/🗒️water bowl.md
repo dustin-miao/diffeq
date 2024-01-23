@@ -5,6 +5,7 @@ title: 🗒️Water Bowl
 Suppose you have a hemisphere-shaped bowl with a radius of $4$ feet. At $t=0$, the bowl is full of water. There is a circular hole at the bottom with a diameter of $1$ inch. Find the time when the tank empties. 
 
 > [!summary]- Solution
+> 
 > Let $y(t)$ be the water level at time $t$, and let $V(t)$ be the volume of water at time $t$. By conservation of energy, we can dervie that the velocity of water per square inch is given by $v=\sqrt{2gy}$. Thus, we get our first equation, 
 > $$
 > \frac{dV(t)}{dt}=-av=-a\sqrt{2gy},

@@ -2,7 +2,12 @@
 title: Home
 ---
 
-This page is a set of notes for Harker's Differential Equations II course (period 5), taught by Dr. Aiyer. 
+This page is a set of notes for Harker's Differential Equations II course (period 5), taught by Dr. Aiyer.
+
+When on a note, you can
+1. Follow the links to see relevant content.
+2. Follow the back links to find mentions of a page. Some concepts such as [[📘equilibrium points]] or [[📙phase portraits]] are mentioned frequently.
+3. Use the graph view to navigate see an overview of linked notes without leaving the page
 
 ### 📝Note Icons
 

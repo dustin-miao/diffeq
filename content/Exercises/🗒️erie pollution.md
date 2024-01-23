@@ -1,5 +1,5 @@
 ---
-title: 🗒️The Pollution of Erie
+title: 🗒️The Pollution of Lake Erie
 ---
 
 Lake Erie has a volume of $480$ cubic kilometers. The inflow from Lake Huron and outflow to Lake Ontario are both $350$ cubic kilometers per year. At $t=0$ the polution concentration of Erie is 5 times that of Huron. How long does it take for pollution in Erie to be twice that of Huron?

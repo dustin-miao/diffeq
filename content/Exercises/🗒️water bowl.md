@@ -23,6 +23,6 @@ Suppose you have a hemisphere-shaped bowl with a radius of $4$ feet. At $t=0$, t
 >
 > Equating the two sides, we get the differential equation
 > $$
-> \pi(8y^2-y)\frac{dy}{dt}=-pi\left(\frac 1 {24}\right)^2 \sqrt{2(32)y}.
+> \pi(8y^2-y)\frac{dy}{dt}=-\pi\left(\frac 1 {24}\right)^2 \sqrt{2(32)y}.
 > $$
 > Then, this becomes a simple [[📘initial value problem]]. Integating both sides and plugging the initial value of $y(0)=4$, we get that $t=2150$. 

@@ -1,5 +1,5 @@
 ---
-title: Population Models
+title: 📙Population Models
 ---
 
 Let $N$ be the number of members of a population. When the population size is unconstrained, the growth rate is proportional to the size of the population. Then, the equation for population growth is given by

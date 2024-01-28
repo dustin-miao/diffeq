@@ -10,7 +10,7 @@ for some positive constant $r$. The solutions of the differential equation is $N
 
 Suppose there is a constraint on the population $K$. Our improved model is given by 
 $$
-\dot{N}=rN(1-\frac N K).
+\dot{N}=rN\left(1-\frac N K\right).
 $$
 The [[📙phase portraits|📙phase portait]] of this equation is a parabola with roots at $N=0$ and $N=K$. Solving, we get 
 $$

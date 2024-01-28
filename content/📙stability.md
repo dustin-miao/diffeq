@@ -27,7 +27,7 @@ The quantitity $\lvert f'(x^*)\rvert$ is the amount of time required for $x(t)$ 
 > 
 > Find and categorize the [[📘equilibrium points]] of the following differential equations:
 > 1. $\dot{x}=\sin x$
-> 2. $N(t)=rN(1-N/k)$ (see [[📙populations models]])
+> 2. $N(t)=rN(1-N/k)$ (see [[📙population models]])
 > 
 > > [!summary]- Solution
 > > 

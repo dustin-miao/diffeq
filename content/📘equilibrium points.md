@@ -12,4 +12,4 @@ An **equilibrium point** is a constant solution to a differential equation. An e
 > $$
 > the function $x=c$ is a equilibrium point if $f(c)=0$. This can also be found by looking at the [[📙phase portraits|📙phase portrait]].
 
-For more examples, see [[🗒️equilibrium points]]
+For more examples, see [[🗒️equilibrium points]].

@@ -42,7 +42,7 @@ The quantitity $\lvert f'(x^*)\rvert$ is the amount of time required for $x(t)$ 
 
 Note that if $f'(x^*)=0$, then we can't draw any conclusions about the function. In this case, we can use [[📙phase portraits]] instead. 
 
-> [!example] Examples of DEs with $f'(x^*)=0$
+> [!example] Examples of DEs with a Derivative of 0
 >
 > Categorize the [[📘equilbrium points]] of the following functions:
 > 1. $\dot{x}=-x^3$

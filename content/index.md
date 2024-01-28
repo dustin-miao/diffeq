@@ -13,10 +13,10 @@ When on a note, you can
 
 | Icon | Type                   |  
 |-----:|------------------------|  
-|   📕 | Axiom                  |  
 |   📘 | Definition             |  
 |   📗 | Proposition or Theorem |  
 |   📙 | Methodology            |  
+|   🗒️ | Example                |
 |   🗺️ | Miscellaneous          |
 
 ### ❓Info

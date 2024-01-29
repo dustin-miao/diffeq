@@ -2,7 +2,8 @@
 id: 📙population models
 aliases:
   - 📙population model
-tags: []
+tags:
+  - "24-01-25"
 title: 📙Population Models
 ---
 

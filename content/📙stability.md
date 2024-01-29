@@ -1,7 +1,8 @@
 ---
 id: 📙stability
 aliases: []
-tags: []
+tags:
+  - "24-01-25"
 title: 📙Quantitive Approach to Stability
 ---
 

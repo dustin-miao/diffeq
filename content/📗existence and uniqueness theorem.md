@@ -1,4 +1,8 @@
 ---
+id: 📗existence and uniqueness theorem
+aliases: []
+tags:
+  - "24-01-25"
 title: 📗Existence and Uniqueness Theorem
 ---
 

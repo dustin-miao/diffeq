@@ -1,4 +1,8 @@
 ---
+id: 📘repellers
+aliases:
+  - 📘repeller
+tags: []
 title: 📘Repellers
 ---
 

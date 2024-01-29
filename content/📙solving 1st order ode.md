@@ -1,4 +1,8 @@
 ---
+id: 📙solving 1st order ode
+aliases:
+  - "Method 1: Finding the Integrating Factor"
+tags: []
 title: 📙Solving 1st-Order ODEs
 ---
 

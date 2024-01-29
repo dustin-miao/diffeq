@@ -1,4 +1,7 @@
 ---
+id: 📘ordinary
+aliases: []
+tags: []
 title: 📘Ordinary
 ---
 

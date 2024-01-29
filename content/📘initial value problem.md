@@ -1,4 +1,8 @@
 ---
+id: 📘initial value problem
+aliases:
+  - 📘initial value problems
+tags: []
 title: 📘Initial Value Problems
 ---
 

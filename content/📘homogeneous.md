@@ -1,4 +1,7 @@
 ---
+id: 📘homogeneous
+aliases: []
+tags: []
 title: 📘Homogeneous
 ---
 

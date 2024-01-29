@@ -1,4 +1,7 @@
 ---
+id: 📘linear
+aliases: []
+tags: []
 title: 📘Linearity
 ---
 

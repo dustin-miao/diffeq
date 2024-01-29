@@ -1,4 +1,8 @@
 ---
+id: 📙phase portraits
+aliases:
+  - 📙phase portrait
+tags: []
 title: 📙Phase Portraits
 ---
 

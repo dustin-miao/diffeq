@@ -1,4 +1,8 @@
 ---
+id: 📙population models
+aliases:
+  - 📙population model
+tags: []
 title: 📙Population Models
 ---
 

@@ -1,4 +1,8 @@
 ---
+id: 📘equilibrium points
+aliases:
+  - 📘equilibrium point
+tags: []
 title: 📘Equilibrium Points
 ---
 

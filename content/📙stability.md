@@ -1,4 +1,7 @@
 ---
+id: 📙stability
+aliases: []
+tags: []
 title: 📙Quantitive Approach to Stability
 ---
 

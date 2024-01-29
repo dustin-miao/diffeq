@@ -2,6 +2,8 @@
 id: 📘equilibrium points
 aliases:
   - 📘equilibrium point
+  - 📘fixed point
+  - 📘fixed points
 tags: []
 title: 📘Equilibrium Points
 ---

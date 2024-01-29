@@ -2,6 +2,7 @@
 id: 📘attractors
 aliases:
   - 📘attractor
+  - 📘stable
 tags: []
 ---
 

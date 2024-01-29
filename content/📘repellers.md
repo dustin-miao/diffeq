@@ -2,6 +2,7 @@
 id: 📘repellers
 aliases:
   - 📘repeller
+  - 📘unstable
 tags: []
 title: 📘Repellers
 ---

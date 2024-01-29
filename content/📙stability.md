@@ -58,3 +58,6 @@ Note that if $f'(x^*)=0$, then we can't draw any conclusions about the function.
 > > 2. Unstable 
 > > 3. Semi-Stable
 > > 4. Neither
+
+
+For more examples, see [[🗒️linear stability analysis]].

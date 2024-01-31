@@ -2,7 +2,8 @@
 id: 📘initial value problem
 aliases:
   - 📘initial value problems
-tags: []
+tags:
+  - "24-01-17"
 title: 📘Initial Value Problems
 ---
 

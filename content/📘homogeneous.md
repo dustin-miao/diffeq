@@ -1,7 +1,8 @@
 ---
 id: 📘homogeneous
 aliases: []
-tags: []
+tags:
+  - "24-01-17"
 title: 📘Homogeneous
 ---
 

@@ -2,7 +2,8 @@
 id: 📙phase portraits
 aliases:
   - 📙phase portrait
-tags: []
+tags:
+  - "24-01-19"
 title: 📙Phase Portraits
 ---
 

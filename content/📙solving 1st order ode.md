@@ -2,7 +2,8 @@
 id: 📙solving 1st order ode
 aliases:
   - "Method 1: Finding the Integrating Factor"
-tags: []
+tags:
+  - "24-01-23"
 title: 📙Solving 1st-Order ODEs
 ---
 

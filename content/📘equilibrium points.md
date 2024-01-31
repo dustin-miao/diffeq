@@ -4,7 +4,8 @@ aliases:
   - 📘equilibrium point
   - 📘fixed point
   - 📘fixed points
-tags: []
+tags:
+  - "24-01-17"
 title: 📘Equilibrium Points
 ---
 

@@ -1,10 +1,10 @@
 ---
-id: 📙phase portraits
+id: 📕phase portraits
 aliases:
-  - 📙phase portrait
+  - 📕phase portrait
 tags:
   - "24-01-19"
-title: 📙Phase Portraits
+title: 📕Phase Portraits
 ---
 
 A **phase portrait** for a differential equation plots $\dot{x}$ as a function of $x$. This can be used to identify [[📘equilibrium points]] by finding where the function is $0$, as well as whether these points are stable or unstable.  

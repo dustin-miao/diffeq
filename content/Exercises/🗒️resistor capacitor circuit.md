@@ -1,4 +1,7 @@
 ---
+id: 🗒️resistor capacitor circuit
+aliases: []
+tags: []
 title: 🗒️Resistor Capacitor Circuit
 ---
 
@@ -14,4 +17,4 @@ Suppose you have a battery of voltage $V_0$ that is wired in series to a resisto
 > $$
 > \dot{Q}=\frac{V_0}{R}-\frac{Q}{CR}.
 > $$
-> The [[📘equilibrium points|📘equilibrium point]] at $Q=CV_0$ is an [[📘attractors|📘attractor]], and the [[📙phase portraits|📙phase portait]] is a line.
+> The [[📘equilibrium points|📘equilibrium point]] at $Q=CV_0$ is an [[📘attractors|📘attractor]], and the [[📕phase portrait]]ne.

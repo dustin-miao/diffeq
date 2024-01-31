@@ -1,6 +1,7 @@
 ---
 id: 📙stability
-aliases: []
+aliases:
+  - 📙linear stability analysis
 tags:
   - "24-01-25"
 title: 📙Quantitive Approach to Stability
@@ -10,7 +11,7 @@ Suppose we are given the differential equation
 $$
 \dot{x}=f(x)
 $$
-and an [[📘equilibrium points|📘equilibrum point]] $x^*$. By definition, $x^*$ must be an x-intercept in the [[📙phase portraits|📙phase portrait]]. Define the function $\eta(t)=x(t)-x^*$. Then, differentiating, we get
+and an [[📘equilibrium points|📘equilibrum point]] $x^*$. By definition, $x^*$ must be an x-intercept in the [[📕phase portrait]] fine the function $\eta(t)=x(t)-x^*$. Then, differentiating, we get
 $$
 \dot{\eta(t)}=\frac{d}{dt}(x(t)-x^*)=\dot{x}=f(x).
 $$

@@ -3,6 +3,7 @@ id: 📘repellers
 aliases:
   - 📘repeller
   - 📘unstable
+  - 📘unstable equilibrum points
 tags:
   - "24-01-17"
 title: 📘Repellers

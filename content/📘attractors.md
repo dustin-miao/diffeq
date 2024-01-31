@@ -3,6 +3,7 @@ id: 📘attractors
 aliases:
   - 📘attractor
   - 📘stable
+  - 📘stable equilibrium points
 tags:
   - "24-01-17"
 title: 📘Attractors

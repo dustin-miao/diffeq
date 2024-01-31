@@ -1,10 +1,13 @@
 ---
 id: 📙bifuracations
-aliases: []
+aliases:
+  - Sattlenode Bifurcations
 tags:
   - "24-01-31"
 title: 📙Bifurcations
 ---
+
+### Sattlenode Bifurcations
  
 Suppose we have the differential equation $\dot{x}=r+x^2$ for some parameter $r$. Let's consider the three [[📕phase portraits]] that result from $r<0$, $r=0$, and $r>0$:
 1. For $r<0$, we have two critical points, where one is an [[📘attractor]] and the other is a [[📘repeller]]

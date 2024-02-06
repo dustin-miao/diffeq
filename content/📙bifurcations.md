@@ -5,6 +5,7 @@ aliases:
 tags:
   - "24-01-31"
   - "24-02-02"
+  - "24-02-06"
 title: 📙Bifurcations
 ---
 
@@ -63,7 +64,7 @@ which takes the form of the original equation.
 
 ### Transcritical Bifurcations 
 
-The form factor of **transcritical bifurcations** is given by $\dot{x}=rx-x^2$, where $r$ is the parameter. The three [[📕phase portraits]] for $r<0$, $r=0$, and $r>0$ take the following form:
+The **form factor** of **transcritical bifurcations** is given by $\dot{x}=rx-x^2$, where $r$ is the parameter. The three [[📕phase portraits]] for $r<0$, $r=0$, and $r>0$ take the following form:
 - For $r<0$, the phase portrait is a parabola with an [[📘repeller]] at $r$ and an [[📘attractor]] at $0$.
 - For $r=0$, the phase portrait is a downward-opening parabola with a semi-stable [[📘equilibrium points|📘fixed point]] at $0$.
 - For $r>0$, the phase portrait is a parabola with an [[📘attractor]] at $r$ and a [[📘repeller]] at $0$.
@@ -115,14 +116,46 @@ $$
 $$
 
 In this case, $N_0$ is the parameter. There are three cases: $N_0<\frac k G$, $N_0=\frac k G$, and $N_0>\frac k G$. In this case, we only care about positive $n$. 
-- In the first case, the fixed point at $n=0$ is [[📘attractors|📘stable]]. 
-- In the second case, the fixed point at $n=0$ is semi-stable.
-- In the third case, the fixed point at $n=0$ is [[📘repellers|📘unstable]]
+- In the first case, the [[📘equilibrium points|📘fixed point]] at $n=0$ is [[📘attractors|📘stable]]. 
+- In the second case, the [[📘equilibrium points|📘fixed point]] at $n=0$ is semi-stable.
+- In the third case, [[📘equilibrium points|📘fixed point]] at $n=0$ is [[📘repellers|📘unstable]]
 
 ### Pitchfork Bifurcation 
 
-The form factor of a **pichfork bifurcation** is given by $\dot{x}=rx-x^3$. 
+The **form factor** of a **pichfork bifurcation** is given by $\dot{x}=rx-x^3$. 
 - For $r\leq 0$, the only fixed point is at $0$. 
-- For $r>0$, there two more fixed points at $\pm\sqrt{r}$.
+- For $r>0$, there two more fixed points at $\pm\sqrt{r}$ along with the original at $0$.
 
-In other words, the fixed points appear in pairs. 
+![[img/pitchfork-bifurcation-example.png]]
+
+The [[📕flow diagrams|📕flow diagram]] resembels a pitchfork, with a solid line at negative $r$ for $x=0$, a dashed line at positive $x$ for $x=0$ alongside two additional cubic lines branching off the center line. Holistically, a pitchfork bifurcation is defined as one where the points appear in pairs. 
+
+> [!example] Pitchfork Bifurcation examples 
+> 
+> 1\. Find the [[📕flow diagrams|📕flow diagram]] of the differential equation $\dot{x}=rx+4x^3$.
+> 
+> > [!summary]- Solution 
+> > 
+> > ![[img/pitchfork-bifurcation-example-diagram-1.png]]
+> > 
+> > Only the $x=0$ for $r<0$ is [[📘repellers|📘unstable]]. 
+> 
+> 2\. Find the [[📕flow diagrams|📕flow diagram]] of the differential equation $\dot{x}=x+\frac{rx}{1+x^2}$. 
+> 
+> > [!summary]- Solution 
+> > 
+> > We can reduce the equation to $\dot{x}=\frac{(r+1)x+x^3}/{1+x^3}$, so we know that the transition point happens at $r=-1$. 
+> > 
+> > ![[img/pitchfork-bifurcation-example-diagram-2.png]]
+> >
+
+
+In a **subcritical** pitchfork bifurcation, a single stable [[📘equilibrium points|📘equilibrium point]] changes from [[📘attractors|📘stable]] to [[📘repellers|📘unstable]] and branches into two new [[📘attractors|📘stable]] points. In a **subcritical** case, it changes from a [[📘attractors|📘stable]] to an [[📘repellers|📘unstable]] [[📘equilibrium points|📘equilibrium point]], as shown in the example above. 
+
+Consider the [[📙potentials|📙potential plot]] of $\dot{x}=rx-x^3$ for $r<0$, $r=0$, and $r>0$. Recall that $\dot{x}=f(x)=-\frac{dV}{dx}$. We get that $V(x)=-\frac r 2 x^2+\frac{x^4}{4}$. Graphing, this corroborates our knowledge about the quality of the [[📘equilibrium points]].
+
+Lastly, consider the [[📕flow diagrams|📕flow diagram]] of $\dot{x}=rx+x^3-x^5$:
+
+![[img/transcritical-fifth-degree-diagram.png|400x400]]
+
+Let $r_s$ be the minimum possible value of $r$ that the fifth-degree function achieves. In the case where $r_s<r<0$, the origin is stable for small perterbations. If on the other hand we have an initial state at $x\approx 0$, it will jump to the next stable portion along the curve. 

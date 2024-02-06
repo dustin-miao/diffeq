@@ -1,5 +1,5 @@
 ---
-id: 📙bifuracations
+id: 📙bifurcations
 aliases:
   - Sattlenode Bifurcations
 tags:

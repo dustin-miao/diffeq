@@ -14,7 +14,7 @@ where all $a_i(x)$ are differentiable functions of $x$.
 
 > [!example] Linear and Nonlinear DE
 > 
-> An example of a linear differential equation of [[📘order]] 1:
+> An example of a linear differential equation of [[📘order|order]] 1:
 > $$
 > \frac{dx}{dt} + 4x = 0.
 > $$

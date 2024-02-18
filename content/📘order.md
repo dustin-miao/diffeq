@@ -10,7 +10,7 @@ The **order** of a differential equation is the highest order derivative it cont
 
 > [!example] First-Order DE
 > 
-> An example of a first-order [[📘linear]] differential equation:
+> An example of a first-order [[📘linear|linear]] differential equation:
 > $$
 > \frac{dx}{dt}+4x=0
 > $$

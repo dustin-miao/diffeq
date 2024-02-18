@@ -7,7 +7,7 @@ tags:
 title: 📙Potentials
 ---
 
-Potentials are a method of visualizing dynamics. Suppose we have a [[📘order|📘1st-order]] differential equation given by $\dot{x}=f(x)$, where $f(x)$ is defined as 
+Potentials are a method of visualizing dynamics. Suppose we have a [[📘order|1st-order]] differential equation given by $\dot{x}=f(x)$, where $f(x)$ is defined as 
 $$
 f(x)=-\frac{dV}{dx}
 $$
@@ -18,7 +18,7 @@ $$
 &=-\left(\frac{dV}{dx}\right)^2.\\
 \end{align*}
 $$
-In particular, if the particle is in equilibrium, $f(x)=\frac{dV}{dx}=0$, so $V(x)$ is a constant. If $V(x)$ is local minima, than the point is an [[📘attractor]]; if $V(x)$ is a local maxima, than the point is a [[📘repeller]].
+In particular, if the particle is in equilibrium, $f(x)=\frac{dV}{dx}=0$, so $V(x)$ is a constant. If $V(x)$ is local minima, than the point is an [[📘attractor|attractor]]; if $V(x)$ is a local maxima, than the point is a [[📘repeller|repeller]].
 
 > [!example] Finding Equilibrium Points with Potentials
 >

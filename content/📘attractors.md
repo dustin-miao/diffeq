@@ -9,4 +9,4 @@ tags:
 title: 📘Attractors
 ---
 
-**Attractors** (as opposed to [[📘repellers]]) are [[📘equilibrium points]] that attract nearby points; in other words, a small perturbation in an attractor will tend towards the attractor. They are also known as sinks. 
+**Attractors** (as opposed to [[📘repellers|repellers]]) are [[📘equilibrium points|equilibrium points]] that attract nearby points; in other words, a small perturbation in an attractor will tend towards the attractor. They are also known as sinks. 

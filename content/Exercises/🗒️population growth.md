@@ -9,7 +9,7 @@ The population growth equation is given by $\dot{x}=kx$, where $x$ is the size o
 
 > [!summary]- Solution
 > 
-> Setting this up as an [[📘initial value problem]], we can integrate both sides and solve the differential equation.
+> Setting this up as an [[📘initial value problem|initial value problem]], we can integrate both sides and solve the differential equation.
 > 1. $0.0129$
 > 2. $11.58 \cdot 10^9$
 > 3. 2178

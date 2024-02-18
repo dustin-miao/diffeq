@@ -17,7 +17,7 @@ Suppose there is a constraint on the population $K$. Our improved model is given
 $$
 \dot{N}=rN\left(1-\frac N K\right).
 $$
-The [[📕phase portrait]] of this equation is a parabola with roots at $N=0$ and $N=K$. Solving, we get 
+The [[📕phase portrait|phase portrait]] of this equation is a parabola with roots at $N=0$ and $N=K$. Solving, we get 
 $$
 N(t)=\frac{K}{1+Ce^{-rt}}.
 $$

@@ -11,7 +11,7 @@ Suppose we are given the differential equation
 $$
 \dot{x}=f(x)
 $$
-and an [[📘equilibrium points|📘equilibrum point]] $x^*$. By definition, $x^*$ must be an x-intercept in the [[📕phase portrait]] fine the function $\eta(t)=x(t)-x^*$. Then, differentiating, we get
+and an [[📘equilibrium points|equilibrium point]] $x^*$. By definition, $x^*$ must be an x-intercept in the [[📕phase portrait|phase portrait]] fine the function $\eta(t)=x(t)-x^*$. Then, differentiating, we get
 $$
 \dot{\eta(t)}=\frac{d}{dt}(x(t)-x^*)=\dot{x}=f(x).
 $$
@@ -30,9 +30,9 @@ The quantitity $\lvert f'(x^*)\rvert$ is the amount of time required for $x(t)$ 
 
 > [!example] Another Perspective of Prior Problems
 > 
-> Find and categorize the [[📘equilibrium points]] of the following differential equations:
+> Find and categorize the [[📘equilibrium points|equilibrium points]] of the following differential equations:
 > 1. $\dot{x}=\sin x$
-> 2. $N(t)=rN(1-N/k)$ (see [[📙population models]])
+> 2. $N(t)=rN(1-N/k)$ (see [[📙population models|population models]])
 > 
 > > [!summary]- Solution
 > > 
@@ -45,11 +45,11 @@ The quantitity $\lvert f'(x^*)\rvert$ is the amount of time required for $x(t)$ 
 > > 2\. We have $N^*=0,K$, so $f'(N^*)=r-\frac{2r}{K}N$ is $r$ at $N^*=0$ (making it unstable) and $-r$ at $N^*=K$ (making it stable).
 
 
-Note that if $f'(x^*)=0$, then we can't draw any conclusions about the function. In this case, we can use [[📙phase portraits]] instead. 
+Note that if $f'(x^*)=0$, then we can't draw any conclusions about the function. In this case, we can use [[📙phase portraits|phase portraits]] instead. 
 
 > [!example] Examples of DEs with a Derivative of 0
 >
-> Categorize the [[📘equilbrium points]] of the following functions:
+> Categorize the [[📘equilbrium points|equilbrium points]] of the following functions:
 > 1. $\dot{x}=-x^3$
 > 2. $\dot{x}=x^3$
 > 3. $\dot{x}=x^2$

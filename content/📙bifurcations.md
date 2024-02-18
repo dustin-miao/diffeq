@@ -11,8 +11,8 @@ title: 📙Bifurcations
 
 ### Sattlenode Bifurcations
 
-Suppose we have the differential equation $\dot{x}=r+x^2$ for some parameter $r$. Let's consider the three [[📕phase portraits]] that result from $r<0$, $r=0$, and $r>0$:
-1. For $r<0$, we have two critical points, where one is an [[📘attractor]] and the other is a [[📘repeller]]
+Suppose we have the differential equation $\dot{x}=r+x^2$ for some parameter $r$. Let's consider the three [[📕phase portraits|phase portraits]] that result from $r<0$, $r=0$, and $r>0$:
+1. For $r<0$, we have two critical points, where one is an [[📘attractor|attractor]] and the other is a [[📘repeller|repeller]]
 2. For $r=0$, we have one semi-stable critical point at $x=0$
 3. For $r>0$, we have no critical points 
 
@@ -20,7 +20,7 @@ This is a specific type of **bifurcation** known as **saddlenode bifurcation**. 
 
 > [!example] Saddlenode Examples
 > 
-> 1\. Given the differentian equation $\dot{x}=f(x)=r-x^2$. Use [[📙linear stability analysis]] to determine the quality of the [[📘equilibrium points]] and determine the form of the [[📕flow diagrams|📕flow diagram]]
+> 1\. Given the differentian equation $\dot{x}=f(x)=r-x^2$. Use [[📙linear stability analysis|linear stability analysis]] to determine the quality of the [[📘equilibrium points|equilibrium points]] and determine the form of the [[📕flow diagrams|flow diagram]]
 >
 > > [!summary]- Solution
 > > 
@@ -54,28 +54,28 @@ which takes the form of the original equation.
 > $$
 > \dot{x}=r+\frac 1 2 x - \frac x {1+x}.
 > $$
-> Find the intersection point $r$ and plot the [[📕flow diagrams|📕flow diagram]].
+> Find the intersection point $r$ and plot the [[📕flow diagrams|flow diagram]].
 > 
 > > [!summary]- Solution 
 > > 
-> > We can graph $y=r+\frac x 2$ and $y=\frac x {x+1}$ to find the [[📘equilibrium points]]. Differentiating both equations with respect to $x$, we get $r=\frac 3 2 \pm \sqrt{2}$ and $x=-1\pm \sqrt{2}$. 
+> > We can graph $y=r+\frac x 2$ and $y=\frac x {x+1}$ to find the [[📘equilibrium points|equilibrium points]]. Differentiating both equations with respect to $x$, we get $r=\frac 3 2 \pm \sqrt{2}$ and $x=-1\pm \sqrt{2}$. 
 > >
-> > The [[📕flow diagrams|📕flow diagram]] is given xy $r=\frac x {x+1} - \frac 1 2 x$. 
+> > The [[📕flow diagrams|flow diagram]] is given xy $r=\frac x {x+1} - \frac 1 2 x$. 
 
 ### Transcritical Bifurcations 
 
-The **form factor** of **transcritical bifurcations** is given by $\dot{x}=rx-x^2$, where $r$ is the parameter. The three [[📕phase portraits]] for $r<0$, $r=0$, and $r>0$ take the following form:
-- For $r<0$, the phase portrait is a parabola with an [[📘repeller]] at $r$ and an [[📘attractor]] at $0$.
-- For $r=0$, the phase portrait is a downward-opening parabola with a semi-stable [[📘equilibrium points|📘fixed point]] at $0$.
-- For $r>0$, the phase portrait is a parabola with an [[📘attractor]] at $r$ and a [[📘repeller]] at $0$.
+The **form factor** of **transcritical bifurcations** is given by $\dot{x}=rx-x^2$, where $r$ is the parameter. The three [[📕phase portraits|phase portraits]] for $r<0$, $r=0$, and $r>0$ take the following form:
+- For $r<0$, the phase portrait is a parabola with an [[📘repeller|repeller]] at $r$ and an [[📘attractor|attractor]] at $0$.
+- For $r=0$, the phase portrait is a downward-opening parabola with a semi-stable [[📘equilibrium points|fixed point]] at $0$.
+- For $r>0$, the phase portrait is a parabola with an [[📘attractor|attractor]] at $r$ and a [[📘repeller|repeller]] at $0$.
 
-The [[📕flow diagrams|📕flow diagram]] the differential equation above consists of two lines with equations $x=0$ and $x=r$. The former is unstable (dashed) for positive $r$, and the latter is unstable for negative $r$. 
+The [[📕flow diagrams|flow diagram]] the differential equation above consists of two lines with equations $x=0$ and $x=r$. The former is unstable (dashed) for positive $r$, and the latter is unstable for negative $r$. 
 
-In general, the definition of a transcritical bifurcation is a [[📘equilibrium points|📘fixed point]] that exists for all values of the parameter. However, the [[📙stability]] of the point may change with $r$.
+In general, the definition of a transcritical bifurcation is a [[📘equilibrium points|fixed point]] that exists for all values of the parameter. However, the [[📙stability|stability]] of the point may change with $r$.
 
 > [!example] Transcritical Examples
 > 
-> For each of the following differential equation, find the form of the [[📕flow diagrams|📕flow diagram]]:
+> For each of the following differential equation, find the form of the [[📕flow diagrams|flow diagram]]:
 > 1. $\dot{x}=r\ln x + x - 1$
 > 2. $\dot{x}=x-rx(1-x)$ 
 > 
@@ -87,10 +87,10 @@ In general, the definition of a transcritical bifurcation is a [[📘equilibrium
 > > $$
 > > which is the general form of the equation. Thus, the bifurcation point happens at $r=-1$. 
 > >
-> > 2\. Graphing the [[📕phase portraits|📕phase portrait]]or several values of $r$, we get the following diagram:
+> > 2\. Graphing the [[📕phase portraits|phase portrait]]or several values of $r$, we get the following diagram:
 > > ![[img/transcritical-example-diagram.png]]
 > > 
-> > For the [[📕flow diagrams|📕flow diagram]], we get the equations $x=rx(1-x)$. There is a horizontal line at $x=0$ and a hyperbola at $x=\frac{r-1}{r}$, with an intersection point at $r=1$. 
+> > For the [[📕flow diagrams|flow diagram]], we get the equations $x=rx(1-x)$. There is a horizontal line at $x=0$ and a hyperbola at $x=\frac{r-1}{r}$, with an intersection point at $r=1$. 
 
 This type of bifurcations is useful for modeling **lasers**. From the textbook
 > [!quote] 
@@ -116,9 +116,9 @@ $$
 $$
 
 In this case, $N_0$ is the parameter. There are three cases: $N_0<\frac k G$, $N_0=\frac k G$, and $N_0>\frac k G$. In this case, we only care about positive $n$. 
-- In the first case, the [[📘equilibrium points|📘fixed point]] at $n=0$ is [[📘attractors|📘stable]]. 
-- In the second case, the [[📘equilibrium points|📘fixed point]] at $n=0$ is semi-stable.
-- In the third case, [[📘equilibrium points|📘fixed point]] at $n=0$ is [[📘repellers|📘unstable]]
+- In the first case, the [[📘equilibrium points|fixed point]] at $n=0$ is [[📘attractors|stable]]. 
+- In the second case, the [[📘equilibrium points|fixed point]] at $n=0$ is semi-stable.
+- In the third case, [[📘equilibrium points|fixed point]] at $n=0$ is [[📘repellers|unstable]]
 
 ### Pitchfork Bifurcation 
 
@@ -128,19 +128,19 @@ The **form factor** of a **pichfork bifurcation** is given by $\dot{x}=rx-x^3$.
 
 ![[img/pitchfork-bifurcation-example.png]]
 
-The [[📕flow diagrams|📕flow diagram]] resembels a pitchfork, with a solid line at negative $r$ for $x=0$, a dashed line at positive $x$ for $x=0$ alongside two additional cubic lines branching off the center line. Holistically, a pitchfork bifurcation is defined as one where the points appear in pairs. 
+The [[📕flow diagrams|flow diagram]] resembels a pitchfork, with a solid line at negative $r$ for $x=0$, a dashed line at positive $x$ for $x=0$ alongside two additional cubic lines branching off the center line. Holistically, a pitchfork bifurcation is defined as one where the points appear in pairs. 
 
 > [!example] Pitchfork Bifurcation examples 
 > 
-> 1\. Find the [[📕flow diagrams|📕flow diagram]] of the differential equation $\dot{x}=rx+4x^3$.
+> 1\. Find the [[📕flow diagrams|flow diagram]] of the differential equation $\dot{x}=rx+4x^3$.
 > 
 > > [!summary]- Solution 
 > > 
 > > ![[img/pitchfork-bifurcation-example-diagram-1.png]]
 > > 
-> > Only the $x=0$ for $r<0$ is [[📘repellers|📘unstable]]. 
+> > Only the $x=0$ for $r<0$ is [[📘repellers|unstable]]. 
 > 
-> 2\. Find the [[📕flow diagrams|📕flow diagram]] of the differential equation $\dot{x}=x+\frac{rx}{1+x^2}$. 
+> 2\. Find the [[📕flow diagrams|flow diagram]] of the differential equation $\dot{x}=x+\frac{rx}{1+x^2}$. 
 > 
 > > [!summary]- Solution 
 > > 
@@ -150,11 +150,11 @@ The [[📕flow diagrams|📕flow diagram]] resembels a pitchfork, with a solid l
 > >
 
 
-In a **subcritical** pitchfork bifurcation, a single stable [[📘equilibrium points|📘equilibrium point]] changes from [[📘attractors|📘stable]] to [[📘repellers|📘unstable]] and branches into two new [[📘attractors|📘stable]] points. In a **subcritical** case, it changes from a [[📘attractors|📘stable]] to an [[📘repellers|📘unstable]] [[📘equilibrium points|📘equilibrium point]], as shown in the example above. 
+In a **subcritical** pitchfork bifurcation, a single stable [[📘equilibrium points|equilibrium point]] changes from [[📘attractors|stable]] to [[📘repellers|unstable]] and branches into two new [[📘attractors|stable]] points. In a **subcritical** case, it changes from a [[📘attractors|stable]] to an [[📘repellers|unstable]] [[📘equilibrium points|equilibrium point]], as shown in the example above. 
 
-Consider the [[📙potentials|📙potential plot]] of $\dot{x}=rx-x^3$ for $r<0$, $r=0$, and $r>0$. Recall that $\dot{x}=f(x)=-\frac{dV}{dx}$. We get that $V(x)=-\frac r 2 x^2+\frac{x^4}{4}$. Graphing, this corroborates our knowledge about the quality of the [[📘equilibrium points]].
+Consider the [[📙potentials|potential plot]] of $\dot{x}=rx-x^3$ for $r<0$, $r=0$, and $r>0$. Recall that $\dot{x}=f(x)=-\frac{dV}{dx}$. We get that $V(x)=-\frac r 2 x^2+\frac{x^4}{4}$. Graphing, this corroborates our knowledge about the quality of the [[📘equilibrium points|equilibrium points]].
 
-Lastly, consider the [[📕flow diagrams|📕flow diagram]] of $\dot{x}=rx+x^3-x^5$:
+Lastly, consider the [[📕flow diagrams|flow diagram]] of $\dot{x}=rx+x^3-x^5$:
 
 ![[img/transcritical-fifth-degree-diagram.png|400x400]]
 

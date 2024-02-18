@@ -5,7 +5,7 @@ tags: []
 title: 🗒️Resistor Capacitor Circuit
 ---
 
-Suppose you have a battery of voltage $V_0$ that is wired in series to a resistor with resistance $R$ and a capacitor with capacitance $C$. Find the differential equation that models this system and the [[📘equilibrium points]] of the equation.
+Suppose you have a battery of voltage $V_0$ that is wired in series to a resistor with resistance $R$ and a capacitor with capacitance $C$. Find the differential equation that models this system and the [[📘equilibrium points|equilibrium points]] of the equation.
 
 > [!summary]- Solution
 >
@@ -17,4 +17,4 @@ Suppose you have a battery of voltage $V_0$ that is wired in series to a resisto
 > $$
 > \dot{Q}=\frac{V_0}{R}-\frac{Q}{CR}.
 > $$
-> The [[📘equilibrium points|📘equilibrium point]] at $Q=CV_0$ is an [[📘attractors|📘attractor]], and the [[📕phase portrait]]ne.
+> The [[📘equilibrium points|equilibrium point]] at $Q=CV_0$ is an [[📘attractors|attractor]], and the [[📕phase portrait|phase portrait]]ne.

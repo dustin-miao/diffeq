@@ -7,8 +7,8 @@ title: 🗒️Particle Motion
 ---
 
 Suppose there is a partical that travels on the half-line ($x\geq 0$) with $\dot{x}=-x^c$, where $c$ is a real constantSuppose there is a partical that travels on the half-line ($x\geq 0$) with $\dot{x}=-x^c$, where $c$ is a real constant.
-1. Find all values of $c$ such that the origin is a [[📘stable]] [[📘fixed point]].
-2. Assume $c$ is chosen such that $x=0$ is [[📘stable]]. How long does it take for the particle to go from $x=1$ to $x=0$ as a function of $c$?
+1. Find all values of $c$ such that the origin is a [[📘stable|stable]] [[📘fixed point|fixed point]].
+2. Assume $c$ is chosen such that $x=0$ is [[📘stable|stable]]. How long does it take for the particle to go from $x=1$ to $x=0$ as a function of $c$?
 
 > [!summary]- Solution
 >

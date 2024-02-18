@@ -6,7 +6,7 @@ Lake Erie has a volume of $480$ cubic kilometers. The inflow from Lake Huron and
 
 > [!summary]- Solution
 > 
-> Let $c$ be the pollution concentration in Huron, and let $x(t)$ be the amount of pollutant in Erie at time $t$. Let $V=480$ be the volume of Lake Erie. The [[📘initial value problem|📘initial value]] is given by $x(0)=5cV$. The question asks us to find at what $t$ does $x(t)=2cV$. 
+> Let $c$ be the pollution concentration in Huron, and let $x(t)$ be the amount of pollutant in Erie at time $t$. Let $V=480$ be the volume of Lake Erie. The [[📘initial value problem|initial value]] is given by $x(0)=5cV$. The question asks us to find at what $t$ does $x(t)=2cV$. 
 >
 > The differential equation for this problem is given by
 > $$

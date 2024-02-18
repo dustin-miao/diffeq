@@ -6,7 +6,7 @@ tags:
 title: 📘Homogeneous
 ---
 
-A [[📘order|📘first-order]] differential equation is said to be **homogeneous** if it can be written as 
+A [[📘order|first-order]] differential equation is said to be **homogeneous** if it can be written as 
 $$
 f(x,t)dt=g(x,t)dx
 $$

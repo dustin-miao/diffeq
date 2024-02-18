@@ -7,7 +7,7 @@ tags:
 title: 📙Solving 1st-Order ODEs
 ---
 
-Below are a list of methods to approach [[📘order|📘1st-order]] [[📘ordinary]] differential equation of different forms. 
+Below are a list of methods to approach [[📘order|1st-order]] [[📘ordinary|ordinary]] differential equation of different forms. 
 
 ### Method 1: Finding the Integrating Factor
 
@@ -26,7 +26,7 @@ $$
 
 > [!example] Solving DEs with Integrating Factors
 > 
-> 1. Solve the [[📘initial value problem]] $\frac{dx}{dt} - x = \frac{11}{8} e^{-t/3}$ and $x(0)=-1$.
+> 1. Solve the [[📘initial value problem|initial value problem]] $\frac{dx}{dt} - x = \frac{11}{8} e^{-t/3}$ and $x(0)=-1$.
 > > [!summary]- Solution
 > >
 > > We have $\rho(t)=e^{-t}$. Plugging in, we get the answer as 

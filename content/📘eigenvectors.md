@@ -14,4 +14,4 @@ for some scalar $\lambda$. In other words, $\vec{v}$ is scaled by some constant 
 $$
 \det(A-\lambda I) = 0.
 $$
-We can solve by first taking the [[📘determinant|determinant]] and finding all **eigenvalues** $\lambda$, then substituting and solving for $(A-\lambda I)\cdot \vec{v}=\vec{0}$. Note that $\langle 0, 0\rangle$ is always a trivial solution.
+We can solve by first taking the [[📘determinant|determinant]] and finding all **eigenvalues** $\lambda$, then substituting and solving for $(A-\lambda I)\cdot \vec{v}=\vec{0}$. Note that $\langle 0, 0\rangle$ is always a trivial solution. The polynomial given by $\det(A-\lambda I))$ is known as the **characteristic polynomial** of $A$, and contains the eigenvalues as the roots. 

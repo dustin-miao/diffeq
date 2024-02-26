@@ -4,6 +4,7 @@ aliases: []
 tags:
   - "24-02-20"
   - "24-02-22"
+  - "24-02-26"
 title: 📙2-D Linear Systems
 ---
 
@@ -126,14 +127,65 @@ The general solution is given by a linear combination of the specific cases, so 
 > 
 > 2\. Sketch a typical phase portrait for $\lambda_2 < \lambda_1 < 0$. 
 
+### Complex Eigenvalues
+
 In the general case, we have
 $$
 \det(A - \lambda I) = \det\begin{bmatrix} a - \lambda & b \\ c & d - \lambda \end{bmatrix} = (a-\lambda)(d-\lambda) - bc = 0.
 $$
+
 Define $\text{trace}(A) = \tau$ and $\det(A) = \Delta$. Then, expanding and solving for $\lambda$, we get 
 $$
 \lambda = \frac{\tau \pm \sqrt{\tau^2 - 4\Delta}}{2}.
 $$
-In particular, when $\tau^2-4\Delta < 0$, then we will get complex eigenvalues. Let $\lambda=\alpha \pm j\beta$. 
+In particular, when $\tau^2-4\Delta < 0$, then we will get complex eigenvalues. Let $\lambda_{1,2}=\alpha \pm j\beta$. The associated [[📘eigenvectors|eigenvectors]] will also be complex, which we will again denote as $\vec{v_1}$ and $\vec{v_2}$. The general solution still takes the form  
+$$
+\vec{x}(t)=C_1 e^{\lambda_1 t}\cdot \vec{v_1} + C_2 e^{\lambda_2 t} \cdot \vec{v_2}.
+$$
 
+Expanding using Euler's formula, we get that $\vec{x}(t)$ is a linear combination of $e^{\alpha t}\cos \beta t$ and $e^{\alpha t}\sin \beta t$. If $\alpha=0$, then $e^{\alpha t}=0$ for all time and the [[📕phase portraits|phase portrait]] is simply a circle. Otherwise, it takes the form of a spiral, going either in or out depending on the sign of $\alpha=\text{Re}(\lambda)$. A **decaying oscillation**, whene $\alpha< 0$, is known as a **stable spiral**, whereas a **growing oscillation** is known as an **unstable spiral**. 
 
+From a high level, we can generalize this method by defining $z(t)=x(t)+jy(t)$. Suppose we are given a system of the form:
+$$
+\dot{\begin{bmatrix} x \\ y \end{bmatrix}}=\begin{bmatrix} \alpha & \beta \\ -\beta & \alpha \end{bmatrix}\begin{bmatrix} x \\ y \end{bmatrix}.
+$$
+Then, we have 
+$$
+\begin{align*}
+\dot{z}(t)&=\dot{x}(t)+j\dot{y}(t) \\ 
+&=(\alpha x+\beta y)+j(-\beta x+\alpha y) \\
+&=\alpha(x+jy)-j\beta(x+jy) \\
+&= (\alpha - j\beta)z.
+\end{align*}
+$$
+
+So $\dot{z}(t) = \gamma z$. From before, we know that the solution to this system is $z(t)=e^{\gamma t}\cdot C$, where $C$ may be complex. We can express this as 
+$$
+\begin{align*}
+x(t)+jy(t)&=(C_1+jC_2)e^{(\alpha-j\beta)t}\\
+&= C_1e^{\alpha t}\cos \beta t + C_2e^{\alpha t}\sin \beta t + j(C_2e^{\alpha t}\cos \beta t - C_1 e^{\alpha t}\sin \beta t).
+\end{align*}
+$$
+
+This shows that both $x(t)$ and $y(t)$ are real, despite having complex eigenvalues. Also, note that this method does not find the [[📘eigenvectors|eigenvectors]].
+
+Consider the system given by $\dot{x}=x-y$ and $\dot{x}=x+y$. Solving using methods above, we get that $x(t)=C_1e^t\cos t - C_2e^t \sin t$ and $y(t)=C_2e^t\cos t + c_1e^t\sin t$. Alternatively, we can find the eigenvalues $\lambda=1\pm j$ and the corresponding [[📘eigenvectors|eigenvectors]] $v_1=\langle i,1\rangle$ and $v_2=\langle -i,1\rangle$. 
+
+Notice that because $\lambda_1$ and $\lambda_2$ are complex conjugates, each component of $v_1$ and $v_2$ are complex conjugates as well. Furthermore, because $x(t)$ and $y(t)$ are real, as shown above, $C_1$ and $C_2$ are also complex conjugates. Expanding and simplfying using algebra, we get 
+$$
+\vec{x}(t)=e^t (C_1+C_2)\begin{bmatrix}-\sin t \\ \cos t\end{bmatrix}+j(C_1-C_2)e^t\begin{bmatrix} \cos t \\ \sin t \end{bmatrix}.
+$$
+
+### Repeated Eigenvalues 
+
+If the two eigenvalues are the same, there are two cases:
+1. 2 eigenvectors correspond to $\lambda$
+2. 1 eigenvector corresponds to $\lambda$
+
+In the first place, the eigenvectors span the plane (i.e. every point on the plane is a linear combination of the vectors). This implies that every vector is an eigenvector (consider $\vec{x_0}=c_1\vec{v_1}+ c_2\vec{v_2}$ and solving for $A\vec{x_0}$). Then, $A$ must take the form 
+$$
+A=\begin{bmatrix} \lambda & 0 \\ 0 & \lambda \end{bmatrix}.
+$$
+The solution must look like $\vec{x}(t)=e^{\lambda t}\cdot \vec{x_0}$. The [[📕phase portrait|phase portrait]] takes the form of a **star** centerd at the origin. If $\lambda=0$, then the plane is full of fixed points. 
+
+In the second case, all trajectories will approach the eigenvector in one direction. This case is known as a **degenerate node**. 

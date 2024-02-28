@@ -173,7 +173,7 @@ Consider the system given by $\dot{x}=x-y$ and $\dot{x}=x+y$. Solving using meth
 
 Notice that because $\lambda_1$ and $\lambda_2$ are complex conjugates, each component of $v_1$ and $v_2$ are complex conjugates as well. Furthermore, because $x(t)$ and $y(t)$ are real, as shown above, $C_1$ and $C_2$ are also complex conjugates. Expanding and simplfying using algebra, we get 
 $$
-\vec{x}(t)=e^t (C_1+C_2)\begin{bmatrix}-\sin t \\ \cos t\end{bmatrix}+j(C_1-C_2)e^t\begin{bmatrix} \cos t \\ \sin t \end{bmatrix}.
+\vec{x}(t)=e^t (C_1+C_2)\begin{bmatrix}-\sin t \\ \cos t\end{bmatrix}+j(C_1-C_2G)e^t\begin{bmatrix} \cos t \\ \sin t \end{bmatrix}.
 $$
 
 ### Repeated Eigenvalues 
@@ -188,4 +188,30 @@ A=\begin{bmatrix} \lambda & 0 \\ 0 & \lambda \end{bmatrix}.
 $$
 The solution must look like $\vec{x}(t)=e^{\lambda t}\cdot \vec{x_0}$. The [[📕phase portrait|phase portrait]] takes the form of a **star** centerd at the origin. If $\lambda=0$, then the plane is full of fixed points. 
 
-In the second case, all trajectories will approach the eigenvector in one direction. This case is known as a **degenerate node**. 
+In the second case, all trajectories will approach the eigenvector in one direction. This case is known as a **degenerate node**. For the intuition on what the [[📕phase portrait|phase portrait]] looks like, consider two eigenvectors with negative eigenvalues. One of these will be "fast", and the other will be "slow", and trajectories will approach along the slow side. The single eigenvector case occurs when the two eigenvectors approach each other. 
+
+### General Case 
+
+Consider the general form 
+$$
+\lambda=\frac{\tau \pm \sqrt{\tau^2 - 4\Delta}{2}}.
+$$
+
+Then, we can categorize the origin based on values of $\tau$ and $\Delta$. 
+
+
+![[img/2d-linear-system-categorization.png]]
+
+Consider the following 8 canonical forms of the $A$:
+
+1. $\begin{bmatrix} \lambda_1 & 0 \\ 0 & \lambda_2 \end{bmatrix}$ for $\lambda_1, \lambda_2 < 0$, $\lambda_1, \lambda_2 > 0$ and $\lambda_1<0,\lambda_2 > 0$. 
+2. $\begin{bmatrix} \alpha & \beta \\ -\beta & \alpha \end{bmatrix}$ for $\alpha<0,\beta\neq 0$, $\alpha>0,\beta\neq 0$, and $\alpha=0,\beta\neq 0$. 
+3. $\begin{bmatrix} \lambda & 1 \\ 0 & \lambda \end{bmatrix}$ for $\lambda < 0$ and $\lambda > 0$ 
+
+
+The solutions are given by:
+1. $\vec{x}(t)=C_1e^{\lambda_1 t}\vec{v_1} + C_2e^{\lambda_2 t} \vec{v_2}$
+2. See [[📙2d-linear-systems#Complex Eigenvalues]]
+3. See Homework Exercise 5.1.11
+
+In general, we would like to perform a change of basis to transform a general matrix into one of these forms. 

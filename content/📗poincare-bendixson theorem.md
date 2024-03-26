@@ -52,4 +52,4 @@ $$
 $$
 where $x$ is the concentration of ADP and $y$ is the concentration of F6P. This system models the process of glycolysis. 
 
-The two nullclines are given by $y=\frac{x}{a+x^2}$ and the other is $y=\frac{b}{a+x^2}$. Consider $\dot{x}$ and $\dot{y}$ in the limit for very large $x$. Then $\dot{x}\approx x^2y$ and $\dot{y}=-x^2y$, so $\dot{y}/\dot{x}=-1$, or that the slopes of the direction filed is $-1$ for large $x$. Then, to compare $\dot{y}$ and $\dot{x}$ when $x$ is large, we have the expression $\dot{x}-(-\dot{y})=b-x$. Thus, if $x>b$ then $-\dot{y}>\dot{x}$.
+The two nullclines are given by $y=\frac{x}{a+x^2}$ and the other is $y=\frac{b}{a+x^2}$. Consider $\dot{x}$ and $\dot{y}$ in the limit for very large $x$. Then $\dot{x}\approx x^2y$ and $\dot{y}=-x^2y$, so $\dot{y}/\dot{x}=-1$, or that the slopes of the direction filed is $-1$ for large $x$. Then, to compare $\dot{y}$ and $\dot{x}$ when $x$ is large, we have the expression $\dot{x}-(-\dot{y})=b-x$. Thus, if $x>b$ then $-\dot{y}>\dot{x}$. 

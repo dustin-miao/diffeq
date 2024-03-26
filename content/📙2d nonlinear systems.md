@@ -3,7 +3,7 @@ id: 📙2d nonlinear systems
 aliases: []
 tags:
   - "24-03-05"
-  - "26-03-11"
+  - "24-03-11"
 title: 📙2-D Nonlinear Systems
 ---
 
@@ -67,7 +67,7 @@ Near the point, the behavior of the system is categonized by this system of diff
 
 ### Tools to Analyze Second Order Systems 
 
-Suppose a system can be written in the form $\dot{x}=-\nabla V for some continuous, differentiable, scalar function $V(\vec{x})$. This is known as a gradient systems with potential function $V(\vec{x})$. 
+Suppose a system can be written in the form $\dot{x}=-\nabla V$ for some continuous, differentiable, scalar function $V(\vec{x})$. This is known as a gradient systems with potential function $V(\vec{x})$. 
 
 **Theorem**: Closed orbits are imposible in gradient systems. 
 _Proof_: Suppose there was a closed orbit. Consider $\delta V$ after $1$ loop. Since $V$ is a scalar function, $\delta V = 0$. On the other hand, 

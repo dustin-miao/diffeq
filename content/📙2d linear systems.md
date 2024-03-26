@@ -1,5 +1,5 @@
 ---
-id: 📙2d-linear-systems
+id: 📙2d linear systems
 aliases: []
 tags:
   - "24-02-20"
@@ -194,7 +194,7 @@ In the second case, all trajectories will approach the eigenvector in one direct
 
 Consider the general form 
 $$
-\lambda=\frac{\tau \pm \sqrt{\tau^2 - 4\Delta}{2}}.
+\lambda=\frac{\tau \pm \sqrt{\tau^2 - 4\Delta}}{2}.
 $$
 
 Then, we can categorize the origin based on values of $\tau$ and $\Delta$. 

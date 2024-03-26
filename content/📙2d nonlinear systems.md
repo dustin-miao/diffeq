@@ -1,9 +1,10 @@
 ---
-id: 📙nonlinear-2nd-order-systems
+id: 📙2d nonlinear systems
 aliases: []
 tags:
   - "24-03-05"
-title: 📙Nonlinear 2nd-Order Differential Equations
+  - "26-03-11"
+title: 📙2-D Nonlinear Systems
 ---
 
 Because most nonlinear systems do not have a closed form solution, we will focus mainly on the qualitative behavior of systems. 
@@ -64,27 +65,17 @@ $$
 $$
 Near the point, the behavior of the system is categonized by this system of differential equations. This matrix is known as the **Jacobian**. 
 
-> [!example] Analyzing Fixed Points through Linearization 
-> 
-> 1\. Find the fixed points and classify them using linearization for the following system: 
-> $$
-> \begin{align*}
-> \dot{x}&=-x+x^3\\
-> \dot{y}&=-2y 
-> \end{align*}
-> $$
-> > [!summary]- Solution 
-> > 
-> > We get the $A$ matrix as 
-> > $$
-> > \begin{\bmatrix} -1+3x^2 & 0 \\ 0 & -2 \end{bmatrix}. 
-> > $$
-> > Plugging in for each of $(x^*,y^*)=(0,0),(-1,0),(1,0)$, we get that the points are stable, saddle, and saddle, respectively. 
-> 
-> 2\. Classify the fixed point $(0,0)$ for the following system:
-> $$
-> \begin{align*}
-> \dot{x}&=-y+ax(x^2+y^2) \\
-> \dot{y}&=x+ay(x^2+y^2)
-> \end{align*}
-> $$
+### Tools to Analyze Second Order Systems 
+
+Suppose a system can be written in the form $\dot{x}=-\nabla V for some continuous, differentiable, scalar function $V(\vec{x})$. This is known as a gradient systems with potential function $V(\vec{x})$. 
+
+**Theorem**: Closed orbits are imposible in gradient systems. 
+_Proof_: Suppose there was a closed orbit. Consider $\delta V$ after $1$ loop. Since $V$ is a scalar function, $\delta V = 0$. On the other hand, 
+$$
+\delta V = \int_0^T \frac{dV}{dt} dt=\int_0^T(\nabla V\cdot \dot{\vec{x}})dt=-\int_0^T \lvert\lvert \dot{\vec{x}}\rvert\rvert^2 dt.  
+$$
+This leads to a contradiction.
+
+Thus, to show that there are no closed orbits in a system, we need to show that there exists a $V(x,y)$ such that $V_x=\dot{x}$ and $V_y=\dot{y}$. For example, consider $\ddot{x}+\dot{x}^3+x=0 and show that there are no periodic solutions. 
+
+We can use a proof by contridiction. Set $E(x,\dot{x})=\frac 1 2 (x^2+\dot{x}^2)$. We know that $\Delta E = 0$ around a closed orbit. However, $\Delta E = \int_0^T \dot{E} dt$. We have $\dot{E}=x\dot{x}+\dot{x}\ddot{x}=-\dot{x}^4<0$. Since $T>0$, this leads to a contradiction. 
